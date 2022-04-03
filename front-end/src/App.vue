@@ -7,15 +7,15 @@
       </div>
     </router-link>
     <div class="title">
-      <h1> Wishlist</h1>
+      <h1>Wishlist</h1>
     </div>
   </div>
   <div class="content">
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
-    <p><a href="https://github.com/BYUCS260/lab-1-photography-website-emiblackk.git">Repo</a></p>
+    <router-link to="/admin">Edit Items in Wishlist</router-link>
+    <p><a href="https://github.com/emiblackk/wishlist.git">Repo</a></p>
 
   </div>
 </div>
@@ -38,8 +38,8 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #5BDEFF;
-  color: #1C454F;
+  background-color: Pink;
+  color: Black;
 }
 
 .title {
